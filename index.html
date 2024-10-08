@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Text Summarization App</h1>
-    <textarea id="inputText" rows="10" cols="50" placeholder="Enter the text to summarize..."></textarea>
-    <br> 
-    <button id="summarizeBtn">Summarize Text</button>
+    <h1 class="title">Text Summarization App</h1>
     
-    <h2>Summary:</h2>
-    <div id="result"></div>
+    <main class="main">
+        <textarea id="inputText" rows="20" cols="50" placeholder="Enter the text to summarize..." class="txtInput"></textarea> 
+        <button id="summarizeBtn" class="btn">Summarize Text</button>
+    </main>
+    <div class="result">
+        <h2 class="title">Summary:</h2>
+        <div id="result"></div>
+    </div>
 
     <script src="app.js"></script>
 </body>
