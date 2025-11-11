@@ -1,5 +1,5 @@
 async function summarizeContent(text) {
-    const API_URL = 'https://api-inference.huggingface.co/models/facebook/bart-large-cnn';
+    const API_URL = 'https://router.huggingface.co/hf-inference/models/facebook/bart-large-cnn';
     const API_TOKEN = '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';
 
     const response = await fetch(API_URL, {
